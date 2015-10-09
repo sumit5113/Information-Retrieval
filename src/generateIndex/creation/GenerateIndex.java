@@ -406,8 +406,8 @@ public class GenerateIndex {
 	 */
 	public static void main(String[] args) throws Exception {
 		// customize the following parameters
-		String corpusSourceURL = arg[0];//;"L:/information retrieval/assignments/corpus/corpus/";
-		String pathToIndexDirURL = arg[1];//"L:/information retrieval/assignments/corpus/index/";
+		String corpusSourceURL = args[0];//;"L:/information retrieval/assignments/corpus/corpus/";
+		String pathToIndexDirURL = args[1];//"L:/information retrieval/assignments/corpus/index/";
 
 		// start of the program
 		SearchInputBean srchInputBean = new SearchInputBean();
